@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+*:focus {
+    outline: none;
+}
+
+:root {
+    --body-color: #c7c7ed;
+    --bg-color: #1a1424;
+    --btn-green: #008000;
+    --btn-green-soft: #3ca13c;
+    --btn-red: #e30d0d;
+    --btn-blue: #2020e7;
+    --btn-blue-soft: #03a9f4;
+    --btn-yellow: #ff9800;
+    --btn-yellow-soft: #ffff00;
+    --btn-violet: #673ab7;
+    --btn-number-color: #c9c7c7;
+    --text-color: #ffffff;
+}
+
+body {
+    background-color: var(--body-color);
+}
+
+.container {
+    width: 360px;
+    margin: 40px auto;
+    padding: 10px;
+    background-color: var(--bg-color);
+    border-radius: 15px;
+}
+
+table {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.txtArea {
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+    text-align: right;
+    font-size: 45px;
+    padding-top: 90px;
+    resize: none;
+}
+
+table tbody tr td {
+    width: 20%;
+    padding: 3px;
+    text-align: center;
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-first-row {
+    background-color: var(--btn-green-soft);
+    color: var(--text-color);
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.btn-sign {
+    background-color: var(--btn-red);
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn-AC {
+    background-color: var(--btn-red);
+}
+
+.btn-plus {
+    background-color: var(--btn-blue-soft);
+}
+
+.btn-minus {
+    background-color: var(--btn-yellow);
+}
+
+.btn-divided {
+    background-color: var(--btn-blue);
+}
+
+.btn-multiply {
+    background-color: var(--btn-green);
+}
+
+.btn-percent {
+    background-color: var(--btn-violet);
+}
+
+.btn-number {
+    background-color: var(--btn-number-color);
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+.btn-last-row {
+    width: 100%;
+    height: 47px;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn-zero {
+    background-color: var(--btn-number-color);
+}
+
+.btn-equal {
+    background-color: var(--btn-yellow-soft);
+}
+
+.last-tr {
+    padding-top: 20px;
+    font-size: 25px;
+    color: var(--text-color);
+    font-weight: 100;
+}
